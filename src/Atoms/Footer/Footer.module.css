@@ -1,0 +1,24 @@
+.wrapper{
+    background-color: #13274F;
+    color: white;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper h2{
+    margin-bottom: 2rem;
+}
+
+.wrapper p{
+    padding: 1rem;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}

@@ -1,0 +1,59 @@
+.wrapper{
+    margin-top: 4rem;
+    height: 90vh;
+    padding: 4rem;
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(65, 63, 63);
+}
+
+.name h1{
+    font-size: 4rem;
+}
+
+.name p{
+    font-size: 2.3rem;
+    font-weight: 400;  
+    align-items: center;
+    justify-content: center;
+}
+
+.name span{
+    color: #2978b5;
+}
+
+.intro{
+    padding: 1rem 5rem;
+}
+
+.intro p{
+    color: rgb(65, 63, 63);
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+
+@media only screen and (max-width: 830px) {
+    .name h1 {
+      font-size: 2rem;
+    }
+  
+    .name p {
+      font-size: 1.5rem;
+    }
+  }

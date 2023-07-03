@@ -1,0 +1,51 @@
+.wrapper{
+    padding: 7rem 10rem;
+    background-color: whitesmoke;
+}
+
+.wrapper h2{
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #1F305E;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.img img{
+    width: 16rem;
+    height: 18rem;
+    border-radius: 2rem;
+    box-shadow: 0.5rem 0.5rem 0.3rem gray;
+}
+
+.name{
+    color: #2978b5;
+    font-weight: bold;
+}
+
+.intro{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro h4{
+    text-align: start;
+}
+
+@media only screen and (max-width:990px){
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 6rem;
+    }   
+}
